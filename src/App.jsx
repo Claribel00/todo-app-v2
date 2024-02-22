@@ -34,7 +34,7 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="add" element={<AddTodo />} />
             <Route path="*" element={<ErrorPage />} />
-            <Route path="todo/id" element={<EditTodo />} />
+            <Route path="todo/:id" element={<EditTodo />} />
           </Route>
         </Routes>
       </BrowserRouter>
